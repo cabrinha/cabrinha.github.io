@@ -1,0 +1,26 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Internaught.io
+tagline:             'A blog of sorts...'
+description:         'Just some blog for Scott to keep his trials and tribulations on file in case they ever prove useful for ... anything at all.'
+url:                 http://internaught.io
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              Internaught Scott
+  url:               https://twitter.com/ScottaBeTrue
+  email:             scott@internaught.io
+
+# Custom vars
+version:             0.0.1
