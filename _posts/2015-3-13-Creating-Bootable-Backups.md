@@ -21,7 +21,7 @@ We were able to successfully clone one disk to another, on a live system, withou
 
 ## The Process
 
-First, you're going to need this little perl script called [nsync.pl](https://gist.github.com/internaught/9de95d15c46d317490ab).
+First, you're going to need this set of little perl scripts I like to call [nsync](https://github.com/internaught/nsync).
 
 This is what we'll use instead of the traditional rsync command. Hats off to Carl Flippin for writing the original version of this script.
 
