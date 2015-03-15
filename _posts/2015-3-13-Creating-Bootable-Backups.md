@@ -13,11 +13,11 @@ On freenode, the people of #centos laughed at me, saying that Backups weren't me
 
 >There is no reliable method to do an on-line full image backup suitable for a bootable system recovery. Open files will not be properly backed up. If you "clone" the system to disks that are still on-line then you are likely to encounter problems with disk labels, duplicate LVM volume labels, and/or UUIDs. Your best bet is probably to use the additional disks for backing up your valuable data.
 
-However, I wasn't using [LVM](http://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)) and I don't intend to for a little while. Although, this same process could work with LVMs using some additional steps, but I won't go over that in this post.
+However, I wasn't using [LVM](http://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)) and I don't intend to for a while. Although, this same process could work with LVMs using some additional steps, but I won't go over that in this post.
 
-No matter what they said, I trudged on and with the help of my favorite co-worker [AJ](https://twitter.com/ationgilliam), we got it working.
+No matter what they said, no matter how bad of an idea it seemed, I trudged on and with the help of my favorite co-worker [AJ](https://twitter.com/ationgilliam), we got it working.
 
-We are now able to successfully clone one disk to another, on a live system, without doing a block-level copy (like with `dd`).
+We were able to successfully clone one disk to another, on a live system, without doing a block-level copy (like with `dd`).
 
 ## The Process
 
