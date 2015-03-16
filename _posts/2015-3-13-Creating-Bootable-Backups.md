@@ -57,8 +57,7 @@ Now we need to create mount points for the new drive before we copy everything o
 
 Since we have three partitions, `/`, `/boot` and `/home`, we'll mount them all under `/backup`:
 {% highlight bash %}
-mkdir -p /backup/boot
-mkdir /backup/home
+mkdir -p /backup/{boot,home}
 {% endhighlight %}
 
 Then, mount the partitions:
@@ -71,9 +70,7 @@ mount -t ext4 /dev/sdb5 /backup/home
 Now that the drives are mounted, we may as well make the pseudo-filesytem directories that we won't be copying anything to:
 
 {% highlight bash %}
-mkdir /backup/dev
-mkdir /backup/proc
-mkdir /backup/sys
+mkdir /backup/{dev,proc,sys}
 {% endhighlight %}
 
 Now, we're ready to use `nsync.pl` to sync the disks. Create the file `/etc/nsyncexcludes.conf` and put in it all the directories you do not want sync'd. We definitely don't want to sync `/proc`, `/dev` or `/sys` of our live system, so make sure you at least add those three directories there.
