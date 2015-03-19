@@ -15,8 +15,8 @@ This book covers:
 * **[Agile Methodology](http://agilemethodology.org/)**
 * **The Four Types of Work**
 
-I couldn't find a link for the explanation of *"The Four Types of Work"* and I won't elaborate on them because it's an important part of the book, guessing what they could be. 
+I couldn't find a link for the explanation of *"The Four Types of Work"* and I won't elaborate on them because an important part of the book is guessing what they could be and figuring it out for yourself.
 
-Overall, this book is great. You would never think of associating IT work with the workflow of a manufacturing plant, but it makes a lot of sense.
+Overall, this book does a great job of bridging the gap between business and IT. You would never think of associating IT work with the workflow of a manufacturing plant, but after reading this, it makes a lot of sense.
 
 10/10 would recommend.
