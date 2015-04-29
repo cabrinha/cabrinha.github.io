@@ -14,7 +14,7 @@ Click at your own risk. It's an extraordinary record. An amazing piece of music,
 <strong>I open a terminal.</strong> As I usually do, when sitting down at my computer, when suddenly... a `fortune` catches my eye. 
 
 {% highlight js %}
-Breathe deep the gathering gloom.
+"Breathe deep the gathering gloom.
 Watch lights fade from every room.
 Bed-sitter people look back and lament;
 another day's useless energies spent.
