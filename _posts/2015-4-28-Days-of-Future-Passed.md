@@ -13,7 +13,7 @@ Click at your own risk. It's an extraordinary record. An amazing piece of music,
 
 <strong>I open a terminal.</strong> As I usually do, when sitting down at my computer. When a `fortune` catches my eye. 
 
-{% highlight %}
+{% highlight perl %}
 Breathe deep the gathering gloom.
 Watch lights fade from every room.
 Bed-sitter people look back and lament;
@@ -49,7 +49,7 @@ I encourage you to get your hands on a copy and watch it. Really compelling argu
 
 It was nice to be reminded of a topic and to be exposed to a new set of ideas, that (still) influces my life to a huge degree, after a long time of not even thinking about stuff like this.
 
-### Coding, Perl and Open-Source
+### Perl and the Pull Request Challenge 
 
 As you may or may not know, I've accepted the [CPAN Pull Request Challenge](http://cpan-prc.org) and today, I completed my first assignment by getting my pull request merged! I'm proud of myself for following through with something, being listed as a contributor and just starting my involvement with the open-source community. Want to know what I did?
 
@@ -75,4 +75,22 @@ my $results = $ud->request('perl');
 
 Better still, the author of the module merged my pull request within the hour I submitted it!
 
+### Jobs and the hunt for the perfect one
 
+I find it worth mentioning: I quit my job. You know, the one that I came up with the [bootable backup](http://internaught.github.io/2015/03/13/Creating-Bootable-Backups/) at? Yeah, I quit that one because I got offered a better one. But, I find it worth adding: I'm currently in the process of interviewing at [Rackspace](http://rackspace.com). The whole thing started on Twitter, when I woke up one morning and expressed my first thought via tweet.
+
+<blockquote class="twitter-tweet" lang="en"><p>I want to work on <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> at <a href="https://twitter.com/Rackspace">@Rackspace</a></p>&mdash; Scotta know me! (@ScottaBeTrue) <a href="https://twitter.com/ScottaBeTrue/status/587620046521774080">April 13, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Only a few minutes later, I was surprised to get a mention from [@Rackspace](https://twitter.com/Rackspace) itself.
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/ScottaBeTrue">@ScottaBeTrue</a> We also want you to work on <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> at Rackspace. If/when you&#39;re ready, let us know and we&#39;ll get you in touch with recruiting!</p>&mdash; Rackspace (@Rackspace) <a href="https://twitter.com/Rackspace/status/587621173367713792">April 13, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Pretty amazing the power of social media in this day and age! I looked up `proprioception` today for some unrelated reason and found Twitter mentioned in the result.
+
+>proprioception is a sense of how our bodies are positioned. Twitter and other constant-contact media create social proprioception. We still see evidence of vestibular and proprioception problems, but they may diminish over time.
+
+Pretty crazy stuff. Anyway, I'll be on my third interview later this week and I might end up writing about how it went. I've been excited about the whole thing ever since I got that mention.
+
+## Outro
+
+I've been doing some things of interest lately and there's more to come! Stay tuned.
