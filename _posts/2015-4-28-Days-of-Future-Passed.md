@@ -13,7 +13,7 @@ Click at your own risk. It's an extraordinary record. An amazing piece of music,
 
 <strong>I open a terminal.</strong> As I usually do, when sitting down at my computer. When a `fortune` catches my eye. 
 
-{% highlight bash %}
+{% highlight sh %}
 Breathe deep the gathering gloom.
 Watch lights fade from every room.
 Bed-sitter people look back and lament;
