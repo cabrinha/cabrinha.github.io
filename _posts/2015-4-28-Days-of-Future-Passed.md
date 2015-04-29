@@ -5,13 +5,13 @@ title: Days of Future Passed
 
 I feel like I need to write about a few things that I've been up to recently. I haven't read a new book or created some new Linux workflow (yet). But I have discovered a new musical album and band. 
 
-## Days of Future Passed
+## The Album 
 
 [The Moody Blues - Days of Future Passed](https://www.youtube.com/watch?v=2y_9hwW1eV0&feature=youtu.be&t=1s)
 
 Click at your own risk. It's an extraordinary record. An amazing piece of music, and now, the story behind the discovery...
 
-<strong>I open a terminal.</strong> As I usually do, when sitting down at my computer. When a `fortune` catches my eye. 
+<strong>I open a terminal.</strong> As I usually do, when sitting down at my computer, when suddenly... a `fortune` catches my eye. 
 
 {% highlight perl %}
 Breathe deep the gathering gloom.
@@ -39,7 +39,7 @@ You can [read the whole review](http://www.amazon.com/gp/customer-reviews/RKBTOZ
 
 However, that's not the thing that inspired me to sit down and write. It was a movie, a film, a lecture that I watched this eventhing that really got me thinking and just ... Woke me up!
 
-### Waking Up by Sam Harris
+### Waking Up
 
 I haven't read the book, I'd never heard of the guy before but I happened across the lecture and gave it a good watch and listen with a roomate of mine and we were both very interested in it and kind of inspired by it.
 
@@ -69,15 +69,18 @@ My pull request solved the issue and got the code working!
 # By simply changing:
 my $results = request('perl');
 
-## to
+# to
 my $results = $ud->request('perl');
+# It works!
 {% endhighlight %}
 
 Better still, the author of the module merged my pull request within the hour I submitted it!
 
 ### Jobs and the hunt for the perfect one
 
-I find it worth mentioning: I quit my job. You know, the one that I came up with the [bootable backup](http://internaught.github.io/2015/03/13/Creating-Bootable-Backups/) at? Yeah, I quit that one because I got offered a better one. But, I find it worth adding: I'm currently in the process of interviewing at [Rackspace](http://rackspace.com). The whole thing started on Twitter, when I woke up one morning and expressed my first thought via tweet.
+I find it worth mentioning: I quit my job. You know, the one that I came up with the [bootable backup](http://internaught.github.io/2015/03/13/Creating-Bootable-Backups/) at? Yeah, I quit that one because I got offered a better one. But, I find it worth adding: I'm currently in the process of interviewing at [Rackspace](http://rackspace.com). 
+
+The whole thing started on Twitter, when I woke up one morning and expressed my first thought via tweet.
 
 <blockquote class="twitter-tweet" lang="en"><p>I want to work on <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> at <a href="https://twitter.com/Rackspace">@Rackspace</a></p>&mdash; Scotta know me! (@ScottaBeTrue) <a href="https://twitter.com/ScottaBeTrue/status/587620046521774080">April 13, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -93,4 +96,6 @@ Pretty crazy stuff. Anyway, I'll be on my third interview later this week and I 
 
 ## Outro
 
-I've been doing some things of interest lately and there's more to come! Stay tuned.
+I've been doing some things of interest lately and there's more to come! 
+
+Stay tuned.
