@@ -13,7 +13,7 @@ Click at your own risk. It's an extraordinary record. An amazing piece of music,
 
 <strong>I open a terminal.</strong> As I usually do, when sitting down at my computer, when suddenly... a `fortune` catches my eye. 
 
-{% highlight perl %}
+{% highlight js %}
 Breathe deep the gathering gloom.
 Watch lights fade from every room.
 Bed-sitter people look back and lament;
@@ -78,7 +78,7 @@ Better still, the author of the module merged my pull request within the hour I 
 
 ### Jobs and the hunt for the perfect one
 
-I find it worth mentioning: I quit my job. You know, the one that I came up with the [bootable backup](http://internaught.github.io/2015/03/13/Creating-Bootable-Backups/) at? Yeah, I quit that one because I got offered a better one. But, I find it worth adding: I'm currently in the process of interviewing at [Rackspace](http://rackspace.com). 
+I find it worth mentioning: I quit my job. You know, the one that I came up with the [bootable backup]({% post_url 2015-3-13-Creating-Bootable-Backups %}) at? Yeah, I quit that one because I got offered a better one. But, I find it worth adding: I'm currently in the process of interviewing at [Rackspace](http://rackspace.com). 
 
 The whole thing started on Twitter, when I woke up one morning and expressed my first thought via tweet.
 
