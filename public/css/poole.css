@@ -171,7 +171,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #2F393F;
+  background-color: #2E3438;
 }
 pre code {
   padding: 0;
@@ -216,7 +216,7 @@ blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #C6C6C6;
-  border-left: .25rem solid #e5e5e5;
+  border-left: .25rem solid #2E3438;
 }
 blockquote p:last-child {
   margin-bottom: 0;
