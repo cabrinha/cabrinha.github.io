@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Sidebar content */
 .sidebar a {
   font-weight: normal;
-  color: #fff;
+  color: #22272a;
 }
 .sidebar-item {
   padding: 1rem;
@@ -214,7 +214,7 @@ a.sidebar-nav-item:focus {
   width: 2.2rem;
   padding: .5rem .65rem;
   color: #505050;
-  background-color: #fff;
+  background-color: #22272a;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -234,7 +234,7 @@ a.sidebar-nav-item:focus {
 
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  color: #fff;
+  color: #22272a;
   background-color: #505050;
 }
 
@@ -553,7 +553,7 @@ a.pagination-item:hover {
           transform: translateX(0);
 }
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar-toggle {
-  box-shadow: 0 0 0 .25rem #fff;
+  box-shadow: 0 0 0 .25rem #22272a;
 }
 .sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
