@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               internaught.io
 tagline:             'A blog of sorts...'
-description:         'Just some blog for Scott to keep his trials and tribulations on file in case they ever prove useful for ... anything at all.'
+description:         'Just some blog for Scott to keep his trials and tribulations on file in case they ever prove useful.'
 url:                 http://internaught.io
 baseurl:             /
 paginate:            5

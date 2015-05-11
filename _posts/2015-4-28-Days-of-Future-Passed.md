@@ -84,7 +84,7 @@ The whole thing started on Twitter, when I woke up one morning and expressed my 
 
 <blockquote class="twitter-tweet" lang="en"><p>I want to work on <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> at <a href="https://twitter.com/Rackspace">@Rackspace</a></p>&mdash; Scotta know me! (@ScottaBeTrue) <a href="https://twitter.com/ScottaBeTrue/status/587620046521774080">April 13, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Only a few minutes later, I was surprised to get a mention from [@Rackspace](https://twitter.com/Rackspace) itself.
+Only a few minutes later, I was surprised to get a mention from [@Rackspace](https://twitter.com/Rackspace).
 
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/ScottaBeTrue">@ScottaBeTrue</a> We also want you to work on <a href="https://twitter.com/hashtag/Linux?src=hash">#Linux</a> at Rackspace. If/when you&#39;re ready, let us know and we&#39;ll get you in touch with recruiting!</p>&mdash; Rackspace (@Rackspace) <a href="https://twitter.com/Rackspace/status/587621173367713792">April 13, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
