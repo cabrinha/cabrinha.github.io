@@ -2,11 +2,10 @@
 layout: post
 title: Reality Bytes
 ---
-<div class="message">
-I continuously make the conscious decision to spend a majority of my time online.
+
+I continuously make the conscious decision to spend a majority of my time on the internet.
 
 This ["Day and Age"](https://en.wikipedia.org/wiki/Information_Age) we live in is dominated by a digital world that none of us can escape... I like to think I thrive in it.
-</div>
 
 ## Working @Rackspace
 
@@ -37,5 +36,35 @@ A book has been floating around my department entitled "[DevOps Troubleshooting]
 Eventhough [horrible things](http://www.cnn.com/2015/06/26/us/charleston-church-shooting-main/) are going on all around us, the human race is making some solid gains as well. The Supreme Court of the U.S. has (finally) made [same-sex marraige legal](http://www.nytimes.com/2015/06/27/us/supreme-court-same-sex-marriage.html?_r=0), marking a huge step forward for the LGBT community. Hopefully this means we're getting closer to coming together to solve bigger issues (take your pick) that are threatening the U.S. and the rest of the world. History has been made.
 
 ## PvP or Perl vs. Python
+
+I practiced writing [Perl](https://github.com/internaught/Perl) just about as much as I could. Joining the [CPAN Pull Request Challenge](http://blogs.perl.org/users/neilb/2014/12/take-the-2015-cpan-pull-request-challenge.html) was a great way for me to start contributing to open source projects while learning Perl. My dedication waxed and waned and eventually my interest just faded out. 
+
+At my new job, everything is Python. Python [this](https://github.com/rackspace/pyrax) and Python [that](https://github.com/rackerlabs/python-clouddns) and so I must join or die. Python forces you to use correct indentation where Perl could give a damn about how much whitespace you do or don't use. I'm not sure which standard library is bigger or more powerful. All I know is, _Python is industry standard_. Which means, I've gotta start learning it and using it to make my tools or contribute to any one of the various projects in the company. I'm not convinced that this is entirely a bad thing, I just know I'll miss using Perl. 
+
+I *do* plan on staying in the CPAN-PRC and tinkering with Perl on the side.
+
+## Grep | Awk
+
+Interesting little thing I learned last week:
+
+Many people, including myself as of last week, tend to get some output, search out what we want to keep using `grep`, then cut that output down even further using `awk '{print $1}'`.
+
+You don't need to grep before you awk. You can just `awk '/grep/ {print $1}'`, like so:
+
+Show all process ID's owned by root.
+
+{ %highlight bash% }
+
+#!/bin/bash
+
+# You could grep root | awk {print $1}
+ps aux | grep root | awk '{print $1]'
+
+# Or you could do away with the grep entirely
+ps aux | awk '/root/ {print $1}'
+
+{ %endhighlight% }
+
+There is probably a lot of other stuff you could do using `awk` too.
 
 
