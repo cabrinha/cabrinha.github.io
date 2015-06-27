@@ -28,14 +28,14 @@ Next month I'll be in class at work. Rackspace has this thing called Rackspace U
 
 A book has been floating around my department entitled "[DevOps Troubleshooting](http://www.amazon.com/DevOps-Troubleshooting-Linux-Server-Practices/dp/0321832043): Linux Server Best Practices". I bought this book and have only sat down to read it for less than an hour, but I can already say that it's packed with practical linux troubleshooting methodology and a lot of not-so-common sense. I'm looking forward to soaking it up.
 
-## Equality for All
+### Equality for All
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">The White House. Disney World. The Empire State Building. Niagara Falls. <a href="https://twitter.com/hashtag/LoveWins?src=hash">#LoveWins</a> <a href="http://t.co/f4VKl9sVas">pic.twitter.com/f4VKl9sVas</a></p>&mdash; Anil Dash (@anildash) <a href="https://twitter.com/anildash/status/614651280376602624">June 27, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Eventhough [horrible things](http://www.cnn.com/2015/06/26/us/charleston-church-shooting-main/) are going on all around us, the human race is making some solid gains as well. The Supreme Court of the U.S. has (finally) made [same-sex marraige legal](http://www.nytimes.com/2015/06/27/us/supreme-court-same-sex-marriage.html?_r=0), marking a huge step forward for the LGBT community. Hopefully this means we're getting closer to coming together to solve bigger issues (take your pick) that are threatening the U.S. and the rest of the world. History has been made.
 
-## PvP or Perl vs. Python
+### PvP or Perl vs. Python
 
 I practiced writing [Perl](https://github.com/internaught/Perl) just about as much as I could. Joining the [CPAN Pull Request Challenge](http://blogs.perl.org/users/neilb/2014/12/take-the-2015-cpan-pull-request-challenge.html) was a great way for me to start contributing to open source projects while learning Perl. My dedication waxed and waned and eventually my interest just faded out. 
 
@@ -43,7 +43,7 @@ At my new job, everything is Python. Python [this](https://github.com/rackspace/
 
 I *do* plan on staying in the CPAN-PRC and tinkering with Perl on the side.
 
-## Grep | Awk
+### Grep | Awk
 
 Interesting little thing I learned last week:
 
@@ -67,4 +67,14 @@ ps aux | awk '/root/ {print $1}'
 
 There is probably a lot of other stuff you could do using `awk` too.
 
+### Outro
 
+Reminding myself to:
+
+- Read more books. If you have any that you think I'd like, let me know. I need to get my hands on a book about the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method).
+- Slow down, take things one day at a time
+- Stay humble
+- Practice mindfullness
+- Eat more fruits and vegetables
+
+That is all for now. See you Space Cowboy.
