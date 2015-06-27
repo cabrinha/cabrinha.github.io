@@ -31,8 +31,8 @@ A book has been floating around my department entitled "[DevOps Troubleshooting]
 
 ## Equality for All
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">niagra falls, disneyland, the white house, the world trade center <a href="https://twitter.com/hashtag/LoveWins?src=hash">#LoveWins</a> <a href="http://t.co/gDk18dUcKu">pic.twitter.com/gDk18dUcKu</a></p>&mdash; Justin&#39;s (@StratfordsKiss_) <a href="https://twitter.com/StratfordsKiss_/status/614801893626265600">June 27, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+-><blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">The White House. Disney World. The Empire State Building. Niagara Falls. <a href="https://twitter.com/hashtag/LoveWins?src=hash">#LoveWins</a> <a href="http://t.co/f4VKl9sVas">pic.twitter.com/f4VKl9sVas</a></p>&mdash; Anil Dash (@anildash) <a href="https://twitter.com/anildash/status/614651280376602624">June 27, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><-
 
 Eventhough [horrible things](http://www.cnn.com/2015/06/26/us/charleston-church-shooting-main/) are going on all around us, the human race is making some solid gains as well. The Supreme Court of the U.S. has (finally) made [same-sex marraige legal](http://www.nytimes.com/2015/06/27/us/supreme-court-same-sex-marriage.html?_r=0), marking a huge step forward for the LGBT community. Hopefully this means we're getting closer to coming together to solve bigger issues (take your pick) that are threatening the U.S. and the rest of the world. 
 
