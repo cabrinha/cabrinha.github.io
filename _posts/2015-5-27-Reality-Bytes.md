@@ -49,11 +49,11 @@ Interesting little thing I learned last week:
 
 Many people, including myself as of last week, tend to get some output, search out what we want to keep using `grep`, then cut that output down even further using `awk '{print $1}'`.
 
-You don't need to grep before you awk. You can just `awk '/grep/ {print $1}'`, like so:
+You don't need grep before awk. You can just `awk '/grep/ {print $1}'`, like so:
 
 Show all process ID's owned by root.
 
-{ %highlight bash% }
+{ %highlight sh% }
 
 #!/bin/bash
 
