@@ -3,15 +3,13 @@ layout: post
 title: Reality Bytes
 ---
 
-I continuously make the conscious decision to spend a majority of my time on the internet.
-
 This ["Day and Age"](https://en.wikipedia.org/wiki/Information_Age) we live in is dominated by a digital world that none of us can escape... I like to think I thrive in it.
 
 ## Working @Rackspace
 
 *I've been living in San Antonio for a month now* and every saturday I come to [Rise Bakery & Cafe](http://www.yelp.com/biz/rise-bakery-and-cafe-san-antonio) for a coffee and a panini. I'm still learning my way around but I can see myself as a regular at this place without a doubt.
 
-I moved here from southern California after I accepted a position at [Rackspace](https://rackspace.com) as a Linux Operations Engineer in their Email and Apps organization. Rackspace Headquarters is a 1.2 million square foot shopping mall converted into an office. It holds [The World's Largest Word Search Puzzle](http://www.guinnessworldrecords.com/world-records/largest-word-search-puzzle), a [coffee shop](http://www.yelp.com/biz/ground-town-san-antonio) and around 3,500 employees all under one roof.
+I moved here from southern California after I accepted a position at [Rackspace](https://rackspace.com) as a Linux Operations Engineer in their Email and Apps organization. Rackspace Headquarters is a 1.2 million square foot shopping mall converted into an office. It holds The World's Largest [Word Search Puzzle](http://www.guinnessworldrecords.com/world-records/largest-word-search-puzzle), a [coffee shop](http://www.yelp.com/biz/ground-town-san-antonio) and around 3,500 employees all under one roof.
 
 In my last post, I mentioned that I was in the interview process. After four interviews, a round-trip flight to Texas and a few tweets later, I got an offer I was happy to accept.
 
