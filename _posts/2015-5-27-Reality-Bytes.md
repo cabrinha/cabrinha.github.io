@@ -71,10 +71,10 @@ There is probably a lot of other stuff you could do using `awk` too.
 
 Reminding myself to:
 
-- Read more books. If you have any that you think I'd like, let me know. I need to get my hands on a book about the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method).
+- Read more books.
 - Slow down, take things one day at a time
 - Stay humble
 - Practice mindfullness
 - Eat more fruits and vegetables
 
-That is all for now. See you Space Cowboy.
+See you Space Cowboy.
