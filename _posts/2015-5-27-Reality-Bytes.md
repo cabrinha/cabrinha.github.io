@@ -53,7 +53,7 @@ You don't need grep before awk. You can just `awk '/grep/ {print $1}'`, like so:
 
 Show all process ID's owned by root.
 
-{ %highlight shell% }
+{% highlight bash %}
 
 #!/bin/bash
 
@@ -63,7 +63,7 @@ ps aux | grep root | awk '{print $1]'
 # Or you could do away with the grep entirely
 ps aux | awk '/root/ {print $1}'
 
-{ %endhighlight% }
+{% endhighlight %}
 
 There is probably a lot of other stuff you could do using `awk` too.
 
