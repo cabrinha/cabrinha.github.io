@@ -41,7 +41,7 @@ body {
 }
 
 html {
-font-family: ""Helvetica Neue" Neue","Helvetica Neue",Arial,sans-serif;
+font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "Open Sans", ""Helvetica Neue" Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #22272A;
