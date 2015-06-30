@@ -52,7 +52,7 @@ html {
   font-size: 13px;
   line-height: 1.5;
 }
-@media (min-width: 75em) {
+@media (min-width: 38em) {
   html {
     font-size: 18px;
   }
@@ -131,7 +131,7 @@ dd {
 /* Misc */
 hr {
   position: relative;
-  margin: 1.5rem 0;
+  margin: 0.5rem 0;
   border: 0;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #22272a;
