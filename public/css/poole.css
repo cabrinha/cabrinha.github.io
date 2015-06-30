@@ -131,7 +131,7 @@ dd {
 /* Misc */
 hr {
   position: relative;
-  margin: 0.5rem 0;
+  margin: 1.5rem 0;
   border: 0;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #22272a;
@@ -288,8 +288,8 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 38rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
+  padding-left:  15rem;
+  padding-right: 15rem;
   margin-left:  auto;
   margin-right: auto;
 }
