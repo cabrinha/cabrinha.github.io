@@ -287,9 +287,9 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 55rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
+  max-width: 68em;
+  padding-left:  1em;
+  padding-right: 1em;
   margin-left:  auto;
   margin-right: auto;
 }
@@ -302,9 +302,9 @@ tbody tr:nth-child(odd) th {
  */
 
 .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  padding-top:    1em;
+  padding-bottom: 1em;
+  margin-bottom: 3em;
 }
 .masthead-title {
   margin-top: 0;
@@ -348,15 +348,15 @@ tbody tr:nth-child(odd) th {
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
+  margin-top: -.5em;
+  margin-bottom: 1em;
   color: #9a9a9a;
 }
 
 /* Related posts */
 .related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 2em;
+  padding-bottom: 2em;
   border-top: 1px solid #eee;
 }
 .related-posts {
@@ -388,8 +388,8 @@ tbody tr:nth-child(odd) th {
 
 .pagination {
   overflow: hidden; /* clearfix */
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-left: -1em;
+  margin-right: -1em;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #AC4041;
   text-align: center;
@@ -398,7 +398,7 @@ tbody tr:nth-child(odd) th {
 /* Pagination items can be `span`s or `a`s */
 .pagination-item {
   display: block;
-  padding: 1rem;
+  padding: 1em;
   border: 1px solid #eee;
 }
 .pagination-item:first-child {
@@ -412,7 +412,7 @@ a.pagination-item:hover {
 
 @media (min-width: 30em) {
   .pagination {
-    margin: 3rem 0;
+    margin: 3em 0;
   }
   .pagination-item {
     float: left;
