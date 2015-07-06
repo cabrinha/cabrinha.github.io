@@ -15,7 +15,7 @@ In my last post, I mentioned that I was in the interview process. After four int
 
 From start to finish, Twitter played a huge role in the process.
 
-<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/Rackspace">@Rackspace</a> thank you so much! Huge thanks so the entire Social Media team too! You guys do a great job. I can&#39;t wait to get started! 😁😎☁️💻</p>&mdash; Scotta know me! (@ScottaBeTrue) <a href="https://twitter.com/ScottaBeTrue/status/598567872613363712">May 13, 2015</a></blockquote>
+<blockquote class="twitter-tweet tw-align-center" theme="dark" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/Rackspace">@Rackspace</a> thank you so much! Huge thanks so the entire Social Media team too! You guys do a great job. I can&#39;t wait to get started! 😁😎☁️💻</p>&mdash; Scotta know me! (@ScottaBeTrue) <a href="https://twitter.com/ScottaBeTrue/status/598567872613363712">May 13, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [Andy Pape](https://twitter.com/Racker_Andy), [Dale Bracey](https://twitter.com/IRTermite), [Drew Cox](https://twitter.com/DrewCoxSA), [Alan Bush](https://twitter.com/alanbush) and [Faisal Misle](https://twitter.com/fmisle) were in contact with me pretty regularly and these guys are just as cool in real life as they are on social media!
@@ -28,7 +28,7 @@ A book has been floating around my department entitled "[DevOps Troubleshooting]
 
 ### Equality for All
 
-<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr">The White House. Disney World. The Empire State Building. Niagara Falls. <a href="https://twitter.com/hashtag/LoveWins?src=hash">#LoveWins</a> <a href="http://t.co/f4VKl9sVas">pic.twitter.com/f4VKl9sVas</a></p>&mdash; Anil Dash (@anildash) <a href="https://twitter.com/anildash/status/614651280376602624">June 27, 2015</a></blockquote>
+<blockquote class="twitter-tweet tw-align-center" theme="dark" lang="en"><p lang="en" dir="ltr">The White House. Disney World. The Empire State Building. Niagara Falls. <a href="https://twitter.com/hashtag/LoveWins?src=hash">#LoveWins</a> <a href="http://t.co/f4VKl9sVas">pic.twitter.com/f4VKl9sVas</a></p>&mdash; Anil Dash (@anildash) <a href="https://twitter.com/anildash/status/614651280376602624">June 27, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Eventhough [horrible things](http://www.cnn.com/2015/06/26/us/charleston-church-shooting-main/) are going on all around us, the human race is making some solid gains as well. The Supreme Court of the U.S. has (finally) made [same-sex marraige legal](http://www.nytimes.com/2015/06/27/us/supreme-court-same-sex-marriage.html?_r=0), marking a huge step forward for the LGBT community. Hopefully this means we're getting closer to coming together to solve bigger issues (take your pick) that are threatening the U.S. and the rest of the world. History has been made.
@@ -69,7 +69,7 @@ There is probably a lot of other stuff you could do using `awk` too.
 
 Reminding myself to:
 
-- Read more books.
+- Read more books
 - Slow down, take things one day at a time
 - Stay humble
 - Practice mindfullness
