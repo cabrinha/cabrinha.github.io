@@ -47,7 +47,7 @@ font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
-  color: #9A9A9A;
+  color: #AC4141;
   letter-spacing: -.025rem;
 }
 
@@ -452,7 +452,7 @@ a.pagination-item:hover {
 .theme-base-08 .container a,
 .theme-base-08 .sidebar-toggle,
 .theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
+  color: rgb(172, 65, 65);
 }
 
 /* Orange */
