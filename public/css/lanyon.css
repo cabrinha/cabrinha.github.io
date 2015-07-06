@@ -480,25 +480,6 @@ a.pagination-item:hover {
   color: #E85151;
 }
 
-a {
-  -webkit-transition: color 0.1s linear;
-  -moz-transition: color 0.1s linear;
-  transition: color 0.1s linear;
-  color: #ced9e0;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #9fb5c2;
-  border-color: #9fb5c2;
-}
-
-a:active, a:focus {
-  color: #9fb5c2;
-  border-color: #9fb5c2;
-  outline: none;
-}
-
 /* Orange */
 .theme-base-09 .sidebar,
 .theme-base-09 .sidebar-toggle:active,
