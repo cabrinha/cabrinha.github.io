@@ -15,8 +15,8 @@ In my last post, I mentioned that I was in the interview process. After four int
 
 From start to finish, Twitter played a huge role in the process.
 
-<blockquote class="twitter-tweet tw-align-center" theme="dark" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/Rackspace">@Rackspace</a> thank you so much! Huge thanks so the entire Social Media team too! You guys do a great job. I can&#39;t wait to get started! 😁😎☁️💻</p>&mdash; Scotta know me! (@ScottaBeTrue) <a href="https://twitter.com/ScottaBeTrue/status/598567872613363712">May 13, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet tw-align-center" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/Rackspace">@Rackspace</a> thank you so much! Huge thanks so the entire Social Media team too! You guys do a great job. I can&#39;t wait to get started! 😁😎☁️💻</p>&mdash; Scotta know me! (@ScottaBeTrue) <a href="https://twitter.com/ScottaBeTrue/status/598567872613363712">May 13, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8" theme="dark"></script>
 
 [Andy Pape](https://twitter.com/Racker_Andy), [Dale Bracey](https://twitter.com/IRTermite), [Drew Cox](https://twitter.com/DrewCoxSA), [Alan Bush](https://twitter.com/alanbush) and [Faisal Misle](https://twitter.com/fmisle) were in contact with me pretty regularly and these guys are just as cool in real life as they are on social media!
 
