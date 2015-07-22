@@ -94,14 +94,14 @@ a:active, a:focus {
 .container {
   max-width: 28rem;
 }
-@media (min-width: 38em) {
+@media (min-width: 38rem) {
   .container {
-    max-width: 32rem;
+    max-width: 43rem;
   }
 }
-@media (min-width: 56em) {
+@media (min-width: 56rem) {
   .container {
-    max-width: 68em;
+    max-width: 51rem;
   }
 }
 
@@ -268,7 +268,7 @@ a.sidebar-nav-item:focus {
     width: 2.25rem;
   }
   .sidebar-toggle:before {
-    padding-bottom: .15rem;
+    padding-bottom: .20rem;
     border-top-width: .45rem;
     border-bottom-width: .15rem;
   }
@@ -383,8 +383,8 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  color: #AC4041;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  color: #ccc;
   text-align: center;
 }
 
@@ -403,7 +403,7 @@ a.pagination-item:hover {
   background-color: #f5f5f5;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 30rem) {
   .pagination {
     margin: 3rem 0;
   }
@@ -588,3 +588,4 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+
