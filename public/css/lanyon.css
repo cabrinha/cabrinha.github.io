@@ -44,13 +44,19 @@ i {
 font-size: 125%;
 }
 
+contact {
+    position: relative;
+    right: 15px;
+}
+
 a#b {
 	-webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
-	float: right;
-  	color: #CED9E0;
+	float: right;  	
+	color: #CED9E0;
 	margin-right: 0.5%;
+	
 }
 
 a#b:hover {
@@ -135,15 +141,16 @@ a:active, a:focus {
  */
 
 .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
-  border-bottom: 1px solid #E85151;
-  position: fixed;
-  left: 0;
-  right: 0;
-  background-color: #22272A;
-  box-shadow: 0px 0px 20px #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #E85151;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3.5em;
+    background-color: #22272A;
+    box-shadow: 0px 0px 20px #000;
 }
 .masthead-title {
   margin-top: 0;
