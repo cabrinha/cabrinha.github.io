@@ -40,6 +40,28 @@ body {
   overflow-x: hidden;
 }
 
+i {
+font-size: 125%;
+}
+
+a#b {
+	-webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+	float: right;
+  	color: #CED9E0;
+	margin-right: 0.5%;
+}
+
+a#b:hover {
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  float: right;
+  color: #E85151;
+  margin-right: 0.5%;
+}
+
 html {
 font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
 }
