@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% include head.html %}
+{% include head.html %} {% include google_analytics.html %}
 
-  {% include google_analytics.html %}
-  <body class="theme-base-08">
+<body class="theme-base-08">
 
-    {% include sidebar.html %}
+  {% include sidebar.html %}
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+  <div class="wrap">
+    <div class="masthead">
+	<contact>
+	<a id="b" href="http://github.com/internaught/"><i class="fa fa-github"></i></a>
+        <a id="b" href="http://twitter.com/ScottaBeTrue/"><i class="fa fa-twitter"></i></a>
+	</contact>
+      <div class="container">
+        <h3 class="masthead-title">
+            <a href="/" title="Home" style="
+    position: absolute;
+    left: 3.4em;">{{ site.title }}</a>
+            <small style="
+    position: absolute;
+    margin-top: 2.5px;
+    left: 50%;
+    margin-left: -49px;
+">{{ site.tagline }}</small>
+	    
           </h3>
-        </div>
-      </div>
-
-      <div class="container content">
-        {{ content }}
       </div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <div class="container content">
+      {{ content }}
+    </div>
+  </div>
 
-    <script>
-      (function(document) {
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  <script>
+    (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
         var checkbox = document.querySelector('#sidebar-checkbox');
@@ -43,6 +54,7 @@
           checkbox.checked = false;
         }, false);
       })(document);
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
