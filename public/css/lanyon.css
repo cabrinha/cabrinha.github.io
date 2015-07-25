@@ -52,10 +52,12 @@ contact {
 a#b {
 	-webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
-	float: right;  	
-	color: #CED9E0;
-	margin-right: 0.5%;
+  transition: color 0.3s ease-in-out 0s;
+color: #CED9E0;
+margin-right: 0.5%;
+float: right;
+font-size: 150%;
+margin-top: -0.4rem;
 	
 }
 
