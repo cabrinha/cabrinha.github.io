@@ -147,7 +147,7 @@ a:active, a:focus {
     padding-bottom: 1rem;
     margin-bottom: 3rem;
     border-bottom: 1px solid #E85151;
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     height: 3.5em;
