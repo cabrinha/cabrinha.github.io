@@ -2,24 +2,6 @@
 layout: default
 title: Home
 ---
-
-<style>
-.post-list { list-style-type:none; }
-.post-list h2 {display:inline}
-</style>
-
-<div>
-    <ul class="post-list">
-    {% for post in site.posts limit:10 %}
-        <li>
-            <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
-            <h3>on {{ post.date | date_to_string }} in {{ post.category }}</h3>
-            <div><blockquote>{{ post.content | strip_newlines | strip_html | truncatewords: 150 }}</blockquote></div>
-        </li>
-    {% endfor %}
-    </ul>
-</div>
-
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
