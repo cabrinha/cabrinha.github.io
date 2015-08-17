@@ -3,8 +3,7 @@ layout: post
 title: The Tripping Octo Robot
 ---
 
-From Linux to OS X and back again! You'd think a title like that would
-hold the promise of an exciting blog post. I'll let you be the judge of that.
+From Linux to OS X and back again! You'd think a title like that would hold the promise of an exciting blog post. I'll let you be the judge of that.
 
 ## Linux
 
