@@ -93,9 +93,7 @@ to your homefolder using symlinks. Exceptionally simple to have a nice,
 useable, somewhat custom setup within a few mintues. In fact, it's just
 a simple one liner:
 
-```
-git clone http://github.com/neeasade/dotfiles ~/.dotfiles_neeasade && ~/.dotfiles_neeasade/deploy.sh
-```
+`git clone http://github.com/neeasade/dotfiles ~/.dotfiles_neeasade && ~/.dotfiles_neeasade/deploy.sh`
 
 Using his dotfiles as the framework, I've only had to make a few small changes
 to make the setup my own. Chaning the backgrounds and editing a few scripts
@@ -105,4 +103,4 @@ Thanks neeasade!
 
 You can see the desktop in action here:
 
-![webm](https://sr.ht/61e69.webm)
+[webm](https://sr.ht/61e69.webm)
