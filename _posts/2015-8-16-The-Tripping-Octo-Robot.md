@@ -10,7 +10,7 @@ that.
 Fun Fact: Then creating a new Github repo, github will suggest a name
 for your new repo. I started keeping track of my meticulously groomed
 dotfiles on github and when I went to create the repository, a name was
-suggested to me. Thus, Octo-Tripping-Robot was born.
+suggested to me. Thus, [Octo-Tripping-Robot](https://github.com/internaught/tripping-octo-robot) was born.
 
 ## Linux
 
@@ -33,8 +33,7 @@ the latest builds.
 Linux was the obvious answer for compiling and building the latest code
 from source. Since I had never used Linux before, 
 [Ubuntu](http://www.ubuntu.com/) was suggested to me and I was off and
-running. Soon, I realized Linux was much more than I thought it was.
-
+running. Soon, I realized Linux was much more than I thought it was. 
 I discovered [Conky](http://conky.sourceforge.net/) and thought it was
 the coolest thing ever. Not too long after that, I was running 
 [Arch Linux](https://www.archlinux.org/) and experimenting with tiling
@@ -93,7 +92,17 @@ He's got scripts that'll clone his repo and tie all the relevant files
 to your homefolder using symlinks. Exceptionally simple to have a nice,
 useable, somewhat custom setup within a few mintues. In fact, it's just
 a simple one liner:
+
 ```
 git clone http://github.com/neeasade/dotfiles ~/.dotfiles_neeasade && ~/.dotfiles_neeasade/deploy.sh
 ```
 
+Using his dotfiles as the framework, I've only had to make a few small changes
+to make the setup my own. Chaning the backgrounds and editing a few scripts
+was all that I needed to make the setup good enough to be my daily driver.
+
+Thanks neeasade!
+
+You can see the desktop in action here:
+
+![webm](https://sr.ht/61e69.webm)
