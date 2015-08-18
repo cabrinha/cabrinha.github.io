@@ -82,16 +82,43 @@ learning the syntax of all the new hotness the good people of
 [#rice](https://rizon.net/) use to get their desktops looking so 
 fresh and so clean.
 
+## Fedora
+
+[Fedora 22](https://getfedora.org/en/workstation/) seemed like a cool thing to get
+into. Mainly because it was RedHat and somewhat a "new" thing. A 4.x kernel and most of the
+software would be up-to-date. However, I ran into some issues with dnf, Fedora's
+new package manager, and mirror speeds which, drove me insane. I also fought with Vim
+to enable lua support and although everything was working great in a full GNOME3
+installation, nothing seemed to work correctly in a minimal install. Things like
+going into suspend mode when closing the laptop lid would just not work, when this
+had been working fine under a full, bloated install. This would not stand.
+
+## Arch Linux
+
+Arch Linux was always going to be my fallback, I just knew it was going to be ... tempermental.
+
+Ontop of that getting to the point of having an actual working desktop setup would be a long,
+treacherous path and I'd be staring the timesuck issue in the face again. Spending hours tweaking 
+on configuration files and getting everything looking good or at least reasonable. Then I'd have to
+work on the functionality... Forget it! 
+
+Until...
+
 ## Neeasade
 
-[neeasade](http://neeasade.net/) is [this guy](https://github.com/neeasade/)
-I met in #rice that ended up having a very good looking [bspwm](https://github.com/baskerville/bspwm)
-setup, complete with a theme changer and nice looking [panel](https://github.com/LemonBoy/bar).
+[neeasade](http://neeasade.net/) is [this](https://github.com/neeasade/) super nice guy
+I met in #rice that ended up having a very good looking Arch setup running:
 
-He's got scripts that'll clone his repo and tie all the relevant files
-to your homefolder using symlinks. Exceptionally simple to have a nice,
-useable, somewhat custom setup within a few mintues. In fact, it's just
-a simple one liner:
+* [bspwm](https://github.com/baskerville/bspwm)
+* [lemonbar](https://github.com/krypt-n/bar)
+* [termite](https://github.com/thestinger/termite)
+
+Along with that came some nice GTK themes (which I'm changing to my liking), very nice fonts like
+DejaVu Sans and Droid Sans.
+
+He's got scripts that'll clone his dotfiles repo and tie all of those relevant files
+to your homefolder using symlinks, backing up any conflicts. Exceptionally simple to have a nice,
+useable, somewhat custom setup within a few mintues. In fact, it's just a simple one liner:
 
 `git clone http://github.com/neeasade/dotfiles ~/.dotfiles && ~/.dotfiles/deploy.sh`
 
@@ -107,5 +134,6 @@ You can see the desktop in action here:
 
 I'm still editing my setup. Colorschemes, hotkeys, background wallpapers, vim plugins, etc.
 
-Be sure to stop by my [Github](https://github.com/internaught/tripping-octo-robot) to see screenshots and the latest version.
+Be sure to stop by my [Github](https://github.com/internaught/tripping-octo-robot) to see 
+screenshots and grab the latest version.
 
