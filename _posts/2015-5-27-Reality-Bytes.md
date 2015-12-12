@@ -56,7 +56,7 @@ Show all process ID's owned by root.
 #!/bin/bash
 
 # You could grep root | awk {print $1}
-ps aux | grep root | awk '{print $1]'
+ps aux | grep root | awk '{print $1}'
 
 # Or you could do away with the grep entirely
 ps aux | awk '/root/ {print $1}'
