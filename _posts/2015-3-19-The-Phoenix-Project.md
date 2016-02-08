@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: short-urls-jekyll
 title: The Phoenix Project by Behr, Spafford and Kim
 ---
 

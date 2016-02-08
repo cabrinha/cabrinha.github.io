@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: short-urls-jekyll
 title: California Here We Come
 ---
 

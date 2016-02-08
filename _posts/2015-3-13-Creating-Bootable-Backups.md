@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: short-urls-jekyll
 title: Creating Bootable Backups in Linux
 ---
 
