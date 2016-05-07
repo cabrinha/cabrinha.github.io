@@ -23,7 +23,7 @@ Arch Linux is great. It's bleeding edge, it's lean, it's ["Free"](http://www.gnu
 ### Back to Mac
 
 My first laptop was a Macbook Pro with Retina Display. I've spoiled myself. I tried to take on the task of building my
-own spin on Arch. Frustration grew, time was lost, efficiency plummeted, rage grew. The struggle was real.
+own spin on Arch. Frustration grew, time was lost, efficiency plummeted, rage mounted. The struggle was real.
 
 The Mac looks nicer from top to bottom, inside and out. The hardware, the software, the design. It's a complete package.
 Truth is, I'm *faster* on a Mac. I couldn't continue fighting with Linux when I knew I'd be more productive on OS X.
