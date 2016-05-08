@@ -51,7 +51,7 @@ I'm learning a lot and doing what I love so, how bad can it be, really?
 
 ## Technical Debt
 
-I've been acquiring my fair share of geek gear lately. I blame head-fi.org and /r/mechanicalkeyboards for this.
+I've been acquiring my fair share of geek gear lately. I blame [head-fi.org](https://head-fi.org) and [/r/mechanicalkeyboards](https://www.reddit.com/r/MechanicalKeyboards/) for this.
 
 ### Click Klack!
 
@@ -60,9 +60,9 @@ First up, the Happy Hacking Professional 2:
 
 A very compact keyboard layout without windows or arrow keys. Designed specifically with UNIX 
 users in mind. I really loved the look and feel of this keyboard, but I couldn't get used to 
-the positioning of the tilde `\`` and pipe `|` keys. Whenever I wanted to use the arrow keys, 
+the positioning of the tilde `~` and pipe `|` keys. Whenever I wanted to use the arrow keys, 
 I found myself contorting my hand into uncomfortable positions. Thus, after only two weeks on 
-my desk, the keyboard found a new home by route of /r/mechmarket.
+my desk, the keyboard found a new home by route of [/r/mechmarket](https://www.reddit.com/r/mechmarket/).
 
 Introducing the Leopold FC660C:
 ![FC660C](https://1.bp.blogspot.com/-O5VwePsbljM/VhlqSfqdTpI/AAAAAAAAASM/UUrwQ7b_3Ho/s1600/_DSC6174%2B-%2BCopy.jpg)
@@ -92,6 +92,3 @@ Hi, ifi Micro iDSD:
 ![ifi](http://ifi-audio.com/wp-content/uploads/2014/06/iDSD-Micro-Render.jpg)
 
 This thing looks and [sounds gorgeous](http://www.head-fi.org/products/ifi-audio-micro-idsd).
-
-
-
