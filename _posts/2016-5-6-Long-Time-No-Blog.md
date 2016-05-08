@@ -14,62 +14,84 @@ This area is a major shift from San Antonio. It's just a different vibe up here.
 It's another world.
 
 Tech giants sit right across the street from one another. Nearly everyone my age is developing 
-the next big app or landing rockets on floating platforms in the middle of the ocean.
-Most people up here tend to value equity more than their salary. Which make some sense, 
-considering that the value of that equity is susceptible to increasing over time whereas inflation 
-dictates that the value of your fixed salary will only decline.
+the next big app or [landing rockets on floating platforms in the middle of the ocean](https://www.youtube.com/watch?v=RPGUQySBikQ
+).
+Most people up here tend to value equity in the company they work for more than their salary. 
+Which make sense but, it's usually unheard of for regular employees at smaller companies to 
+be granted any amount of stock options with their compensation.
 
-Everyone wants to work for a startup. Uber is about to go public, supposedly, and everyone 
-wants to get those pre-IPO stock options. Tech workers dream of escaping the rigorous throws 
-of corporate bureaucracy in favor of a creative, interesting, small-but-powerful untamed startup.
-
-There are a lot of Teslas up here. Prius is runner up of most popular car on the road. 
 If you ever get a chance to watch HBO's "Silicon Valley", there is very little difference 
 between the show and the reality of this area.
 
-"Incubators" aka "Hacker Houses" are a real thing. I'm technically living in one of them. 
-My roomates work at Apple, Google and Intel. One is a Quantum Computing Mathemetician, or at 
-least, that's what he tells everyone.
+[Tech incubators](http://www.inc.com/john-rampton/top-10-hot-incubators-to-join-in-silicon-valley.html) 
+aka [Hacker Houses](https://sfbay.craigslist.org/search/roo?query=hacker) are a real thing. 
+Everyone up here is an "Engineer". Software, Hardware, Infrastructure. There are far more 
+women working as Software Developers up here than I thought there would be. Which is 
+refreshing.
 
-### Working Graveyard for a Living
+[Au Pairs](https://en.wikipedia.org/wiki/Au_pair) are quite common as well. 
+Stand around the keg at any backyard party in the Valley for more than ten minutes and 
+you're likely to hear some German being spoken. There are people from all over the world here 
+and it's enlightening to hear about the various backgrounds and origins that this melting pot 
+of technology has stirred together.
 
-Internet technologies are becoming more and more expected to be and stay "Always-On". What 
-this means from an infrastructure point of view is reliability. Uptime is a, if not *the* 
-measure of performance.
+## Rising from the Grave
 
-I work the night shift at an Internet of Things company. This means while everyone is asleep, 
-I'm online, hard at work monitoring thousands of Linux servers for inconsistencies, 
-searching for ripples in cyberspace, deploying code and yes, even writing some small scripts. 
-Never having worked a night shift position before, it has been difficult to adjust my eating 
-and sleeping schedules. Essentially I live a backwards life, heading into the office around 
-10pm every weeknight, taking lunch around 2am and heading home by 7am to catch some Z's by 9am.
+Internet technologies are expected to be and remain "Always-On". What this means from a 
+human resources standpoint is man hours. Uptime is a, if not *the*, measure of worth for any 
+online service, mobile app or popular website.
+
+I work the night shift at an [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_Things) 
+company. This means while everyone else is asleep, I'm online, hard at work monitoring 
+tens of thousands of Linux servers for anomolies, cruising through cyberspace, deploying 
+code and yes, even writing some small scripts myself. Never having worked a night shift 
+position before, it has been difficult to adjust my schedule. 
 
 I'm learning a lot and doing what I love so, how bad can it be, really?
 
-## Where in the World is Satashi Nakamoto?
+## Technical Debt
 
-What I really want to talk about... What's been holding my interest with laser focus for the 
-past couple weeks, is all the "Satoshi Nakamoto" news that's coming out.
+I've been acquiring my fair share of geek gear lately. I blame head-fi.org and /r/mechanicalkeyboards for this.
 
-I've been interested in Bitcoin since 2011. I've been evangelizing the technology and speculating 
-in the market since 2013. I've day traded, converted non-believers and kept an ear to the ground. 
-If you're interested in learning more about Bitcoin, there are plenty of [resources](https://en.wikipedia.org/wiki/Bitcoin) online.
+### Click Klack!
 
-### 0.00000001
+First up, the Happy Hacking Professional 2:
+![HHKB2](https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12070729_979365812157634_1658273711_n.jpg?ig_cache_key=MTIxNTM4ODQzNTYzMjY4ODk4Mg%3D%3D.2)
 
-Dr. Craig Steven Wright has publicly claimed to be the creator of Bitcoin. Gavin Andresen 
-publicly backed that claim (and subsequently had his github commit access to the Bitcoin 
-open-source project removed). JVP has also publicly backed Wright's claim, but wait, there's 
-more!
+A very compact keyboard layout without windows or arrow keys. Designed specifically with UNIX 
+users in mind. I really loved the look and feel of this keyboard, but I couldn't get used to 
+the positioning of the tilde `\`` and pipe `|` keys. Whenever I wanted to use the arrow keys, 
+I found myself contorting my hand into uncomfortable positions. Thus, after only two weeks on 
+my desk, the keyboard found a new home by route of /r/mechmarket.
 
-BBC landed [the interview](http://www.bbc.com/news/technology-36168863), with [The Wall Street Journal](http://www.wsj.com/articles/craig-wright-claims-he-is-bitcoin-inventor-satoshi-nakamoto-1462182349), [The New York Times](http://www.nytimes.com/2016/05/03/business/dealbook/bitcoin-craig-wright-satoshi-nakamoto.html), [Wired Magazine](https://www.wired.com/2016/05/craig-wright-privately-proved-hes-bitcoins-creator/) 
-and others having published stories just after, confirming Wright's claims. Then redacting them, 
-then publishing follow up articles asking ["Is he really?"](http://www.economist.com/news/briefings/21698061-craig-steven-wright-claims-be-satoshi-nakamoto-bitcoin). There is so much more to the complete 
-story than can fit in a single news article and I believe that story is far from over.
+Introducing the Leopold FC660C:
+![FC660C](https://1.bp.blogspot.com/-O5VwePsbljM/VhlqSfqdTpI/AAAAAAAAASM/UUrwQ7b_3Ho/s1600/_DSC6174%2B-%2BCopy.jpg)
 
-This is the type of rabbit hole you can never leave.
+This keyboard is slightly bigger than the HHKB, much heavier yet seemingly better build 
+quality. It's my current daily driver at work. Topre for life!
 
-All the news coming out seems to be an advanced lesson in slight of hand and an extreme 
-demonstration of misdirection. And we haven't even gotten to [David Kleiman](http://gizmodo.com/the-strange-life-and-death-of-dave-kleiman-a-computer-1747092460) yet. 
-I don't have the energy to lay out a play-by-play timeline of everything that has transpired over the past two weeks, 
-but if you have the interest, I'm sure you'll be able to find what you're looking for.
+### Can you hear me now?
+
+Music has always been passion of mine. Listening to music while I'm on the computer is a 
+ritual and it was about time I made a sound investment in audio gear.
+
+MrSpeakers Mad Dog Headphones:
+![MadDog](https://mrspeakers.com/wp-content/uploads/2014/02/MDP-34-view-1280x1280.jpg)
+
+These closed-back [planar magnetic headphones](http://www.innerfidelity.com/content/how-planar-magnetic-headphones-work) 
+are just plain awesome. Not too expensive and not too weak to be completely immersed in 
+any genre of music. They're easily the most comfortable headphones I've ever owned and 
+I'm lucky to have snagged a pair before they were [discontinued](http://www.head-fi.org/t/766668/end-of-life-and-sale-on-mad-dog-and-alpha-headphones). 
+A comprehensive review can be found on [head-fi](http://www.head-fi.org/products/mrspeakers-mad-dog-t50rp-mod).
+
+Of course, with all that high-end headphone goodness, you need an AMP/DAC to power it.
+
+Hi, ifi Micro iDSD:
+![ifi box](https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12918413_1746236715662664_1316226810_n.jpg?ig_cache_key=MTIxNjIzMTExNTUwNTg2NDY3Nw%3D%3D.2)
+
+![ifi](http://ifi-audio.com/wp-content/uploads/2014/06/iDSD-Micro-Render.jpg)
+
+This thing looks and [sounds gorgeous](http://www.head-fi.org/products/ifi-audio-micro-idsd).
+
+
+
