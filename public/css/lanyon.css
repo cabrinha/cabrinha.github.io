@@ -506,7 +506,7 @@ a.pagination-item:hover {
   background-color: #883F42;
 }
 .theme-base-08 .container a {
-   color: #CED9E0;
+    color: #CED9E0;
     border-bottom: 1px solid #E85151;
     transition: color 0.1s linear;
     text-decoration: none;
@@ -514,6 +514,10 @@ a.pagination-item:hover {
 .theme-base-08 .sidebar-toggle,
 .theme-base-08 .related-posts li a:hover {
   color: #E85151;
+}
+
+h1.post-title a {
+     border: none;
 }
 
 /* Orange */
