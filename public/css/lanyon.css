@@ -516,8 +516,8 @@ a.pagination-item:hover {
   color: #E85151;
 }
 
-h1.post-title a {
-     border: none;
+.theme-base-08 .container h1.post-title a {
+    border: none;
 }
 
 /* Orange */
