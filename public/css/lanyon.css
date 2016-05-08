@@ -511,6 +511,10 @@ a.pagination-item:hover {
     transition: color 0.1s linear;
     text-decoration: none;
 }
+.theme-base-08 .container a:hover {
+    color: #e85151;
+    border-color: #9fb5c2;
+}
 .theme-base-08 .sidebar-toggle,
 .theme-base-08 .related-posts li a:hover {
   color: #E85151;
