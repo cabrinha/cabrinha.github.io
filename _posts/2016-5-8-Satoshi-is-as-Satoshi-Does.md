@@ -40,7 +40,12 @@ yet. Nor have I even mentioned the [Tulip Trading Trust](https://assets.document
 Craig is also under audit by the Australian Tax Office and [some claim](https://www.reddit.com/r/Bitcoin/comments/4hm5l1/telling_craig_wright_deflected_question_about/) 
 his shoddy public reveal to be motivated by tax evasion purposes.
 
-Still, the rabbit hole goes even [deeper](https://twitter.com/BitcoinBelle/status/728355416846045189).
+Still, the rabbit hole goes even [deeper](https://twitter.com/AaronvanW/status/728574308319154176).
+
+I also find it curious that all of this is happening relatively close to the block reward 
+[halvening](http://www.bitcoinblockhalf.com/http://www.bitcoinblockhalf.com/). 
+
+There could also be other factors at play, like the debate about increasing the blocksize...
 
 Some people say, "It doesn't matter who Satoshi is!" and I disagree, simply because 
 I want to know. However, the world may never know.
