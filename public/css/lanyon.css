@@ -353,10 +353,7 @@ a.sidebar-nav-item:focus {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
-.page,
-.post {
-  margin-bottom: 5em;
-  padding-top:  5em;
+.page, .post {
 }
 
 /* Blog post or page title */
