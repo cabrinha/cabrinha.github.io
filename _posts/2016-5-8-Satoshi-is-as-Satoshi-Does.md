@@ -4,10 +4,8 @@ permalink: short-urls-jekyll
 title: Satoshi is as Satoshi Does
 ---
 
-## Where in the World is Satashi Nakamoto?
-
 What's been holding my attention with laser focus for the 
-last couple weeks, is all this "Satoshi Nakamoto" news that's coming out.
+last couple weeks, is all the "Satoshi Nakamoto" news that's coming out...
 
 <!--more-->
 
