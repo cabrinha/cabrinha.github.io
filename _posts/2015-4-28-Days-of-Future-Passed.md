@@ -5,7 +5,7 @@ title: Days of Future Passed
 ---
 
 I feel like I need to write about a few things that I've been up to recently. I haven't read a new book or created some new Linux workflow (yet). But I have discovered a new musical album and band. 
-
+<!--more-->
 ## The Album 
 
 [The Moody Blues - Days of Future Passed](https://www.youtube.com/watch?v=2y_9hwW1eV0&feature=youtu.be&t=1s)

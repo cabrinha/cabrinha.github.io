@@ -7,7 +7,7 @@ title: The Tripping Octo Robot
 From Linux to OS X and back again! You'd think a title like that would
 hold the promise of an exciting blog post. I'll let you be the judge of
 that.
-
+<!--more-->
 Fun Fact: Then creating a new Github repo, github will suggest a name
 for your new repo. I started keeping track of my meticulously groomed
 dotfiles on github and when I went to create the repository, a name was

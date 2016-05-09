@@ -5,7 +5,7 @@ title: Reality Bytes
 ---
 
 This ["Day and Age"](https://en.wikipedia.org/wiki/Information_Age) we live in is dominated by a digital world that none of us can escape... I like to think I thrive in it.
-
+<!--more-->
 ## Working @Rackspace
 
 *I've been living in San Antonio for a month now* and every saturday I come to [Rise Bakery & Cafe](http://www.yelp.com/biz/rise-bakery-and-cafe-san-antonio) for a coffee and a panini. I'm still learning my way around but I can see myself as a regular at this place without a doubt.

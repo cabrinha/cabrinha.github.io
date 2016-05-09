@@ -9,7 +9,7 @@ title: The Phoenix Project by Behr, Spafford and Kim
 It is rare for me to read an entire book over the course of a week. I usually take months to get around to cracking open a good ol' paperback and taking the time away from some kind of screen to sit down and enjoy a novel. *I don't typically read novels.* But, with this book, it was all too easy. A friend of mine, [James Loosli](http://http://jamesloos.li/), recommended this book to me. He said it would change the way I looked at IT and business and it did.
 
 The book was easy-to-read and upbeat, if not fast paced. The authors never get into the really technical nitty-gritty of IT things, but they do a good job of giving you the overall gist of any one of the hundreds of situations our protagonist is faced with. Even if you're not an *IT person* you're still going to be able to cruise through the book with a good understanding of what's going on. 
-
+<!--more-->
 This book covers:
 
 * **"The Three Ways"**, which you can read about [here](http://itrevolution.com/the-three-ways-principles-underpinning-devops/) and [here](https://infotechfb.com/blog/the-three-ways-of-devops/). 

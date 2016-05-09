@@ -6,7 +6,7 @@ title: California Here We Come
 
 After only six months of living in San Antonio, I'll be leaving to head back to California. I won't be returning to the
 Southern Californian suburb from whence I came, but rather the San Fransisco Bay-Area Calfornia I've only visited for a week.
-
+<!--more-->
 ## Athena
 
 My last blog post was about "The Octo Tripping Robot" and [Ricing](http://installgentoo.wikia.com/wiki/GNU/Linux_Ricing)

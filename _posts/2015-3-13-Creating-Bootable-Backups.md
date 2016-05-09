@@ -5,7 +5,7 @@ title: Creating Bootable Backups in Linux
 ---
 
 They said it couldn't be done, but it has been. After searching for "Create bootable backup CentOS 6", digging through forums and getting trolled in IRC, I finally got my backup to boot.
-
+<!--more-->
 On freenode, the people of #centos laughed at me, saying that Backups weren't meant to be bootable. You can't get redundancy and backups from the same disk. On the CentOS forums, they were saying the same thing:
 >Centos Backup help
 >
