@@ -4,7 +4,8 @@ permalink: short-urls-jekyll
 title: Example content
 ---
 
-
+Showing off the formatting of markdown and how it renders under jekyll.
+<!--more-->
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
