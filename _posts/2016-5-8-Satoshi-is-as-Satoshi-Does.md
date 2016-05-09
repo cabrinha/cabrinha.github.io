@@ -4,10 +4,12 @@ permalink: short-urls-jekyll
 title: Satoshi is as Satoshi Does
 ---
 
-# Where in the World is Satashi Nakamoto?
+## Where in the World is Satashi Nakamoto?
 
-What I really want to talk about... What's been holding my attention with laser focus for the 
+What's been holding my attention with laser focus for the 
 last couple weeks, is all this "Satoshi Nakamoto" news that's coming out.
+
+<!--more-->
 
 I've been interested in Bitcoin since 2011. I've been evangelizing the technology and speculating 
 in the market since 2013. I've day traded, converted non-believers and kept an ear to the ground. 
