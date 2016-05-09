@@ -4,8 +4,6 @@ permalink: short-urls-jekyll
 title: Long Time No Blog
 ---
 
-## Welcome to Silicon Valley
-
 About 6 months ago I talked about moving back to California.
 I've been living in Silicon Valley since January and I like it here.
 It's been raining quite a bit, which is a little out of the ordinary but well received.
