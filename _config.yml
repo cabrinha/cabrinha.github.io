@@ -10,7 +10,7 @@ permalink:           pretty
 title:               internaught.io
 tagline:             'A blog of questionable meaning...'
 description:         'Just some blog for Scott to keep his trials and tribulations on file in case they ever prove useful.'
-url:                 http://internaught.io
+url:                 internaught.github.io
 baseurl:             /
 paginate:            5
 
