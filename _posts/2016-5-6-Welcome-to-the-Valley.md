@@ -3,11 +3,12 @@ layout: post
 title: Welcome to the Valley
 ---
 
-About 6 months ago I talked about moving back to California.
+About 6 months ago I talked about moving back to California from Texas.
 I've been living in Silicon Valley since January and I like it here.
 It's been raining quite a bit, which is a little out of the ordinary but well received.
 This area is a major shift from San Antonio. It's just a different vibe up here.
 <!--more-->
+
 It's another world.
 
 Tech giants sit right across the street from one another. Nearly everyone my age is developing 
