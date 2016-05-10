@@ -156,7 +156,7 @@ a:active, a:focus {
     position: fixed;
 }
 .masthead-title {
-  margin-top: 0;
+  margin-top: -65px;
   margin-bottom: 0;
   color: #505050;
 }
@@ -520,6 +520,13 @@ a.pagination-item:hover {
 
 .theme-base-08 .container h1.post-title a {
     border: none;
+}
+
+.theme-base-08 .masthead-title a {
+    color: #CED9E0;
+    border-bottom: 1px solid #E85151;
+    transition: color 0.1s linear;
+    text-decoration: none;
 }
 
 /* Orange */
