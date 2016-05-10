@@ -87,6 +87,14 @@ Of course, with all that high-end headphone goodness, you need an AMP/DAC to pow
 Hi, ifi Micro iDSD:
 ![ifi box](https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12918413_1746236715662664_1316226810_n.jpg?ig_cache_key=MTIxNjIzMTExNTUwNTg2NDY3Nw%3D%3D.2)
 
-![ifi](http://ifi-audio.com/wp-content/uploads/2014/06/iDSD-Micro-Render.jpg)
+![ifi](https://www.nativedsd.com/media/uploads/midsd03.png)
 
-This thing looks and [sounds gorgeous](http://www.head-fi.org/products/ifi-audio-micro-idsd).
+This thing looks and [sounds gorgeous](http://www.head-fi.org/products/ifi-audio-micro-idsd), in my opinion.
+
+Finally, we have another pair of closed-back Fostex cans.
+
+Massdrop X Fostex TH-X00:
+![TH-X00](https://massdrop-s3.imgix.net/product-images/fostex-x-massdrop-th-x00/MD-9475_20151120171104_e7722094d1248da0.jpg)
+
+These headphones are a collaboration between [Fostex](https://www.fostex.com/) and [Massrop](https://massdrop.com/). They're also made of rich mahogany. 
+Overall, I've collected some good gear recently and can't see myself justifying any more purchases of this nature for quite some time.
