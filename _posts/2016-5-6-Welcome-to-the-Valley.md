@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: short-urls-jekyll
-title: Long Time No Blog
+title: Welcome to the Valley
 ---
 
 About 6 months ago I talked about moving back to California.
