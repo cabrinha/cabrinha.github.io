@@ -53,8 +53,9 @@ I've been acquiring my fair share of geek gear lately. I blame [head-fi.org](htt
 ### Click Klack!
 
 First up, the Happy Hacking Professional 2:
-![HHKB2](https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12070729_979365812157634_1658273711_n.jpg?ig_cache_key=MTIxNTM4ODQzNTYzMjY4ODk4Mg%3D%3D.2)
-
+<p align="center">
+  <img src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12070729_979365812157634_1658273711_n.jpg?ig_cache_key=MTIxNTM4ODQzNTYzMjY4ODk4Mg%3D%3D.2"/>
+</p>
 A very compact keyboard layout without windows or arrow keys. Designed specifically with UNIX 
 users in mind. I really loved the look and feel of this keyboard, but I couldn't get used to 
 the positioning of the tilde `~` and pipe `|` keys. Whenever I wanted to use the arrow keys, 
@@ -84,15 +85,11 @@ A comprehensive review can be found on [head-fi](http://www.head-fi.org/products
 Of course, with all that high-end headphone goodness, you need an AMP/DAC to power it.
 
 Hi, ifi Micro iDSD:
-![ifi box](https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12918413_1746236715662664_1316226810_n.jpg?ig_cache_key=MTIxNjIzMTExNTUwNTg2NDY3Nw%3D%3D.2)
-
 ![ifi](https://www.nativedsd.com/media/uploads/midsd03.png)
 
 This thing looks and [sounds gorgeous](http://www.head-fi.org/products/ifi-audio-micro-idsd), in my opinion.
 
-Finally, we have another pair of closed-back Fostex cans.
-
-Massdrop X Fostex TH-X00:
+Finally, we have another pair of closed-back Fostex cans, the Massdrop X Fostex TH-X00:
 ![TH-X00](https://massdrop-s3.imgix.net/product-images/fostex-x-massdrop-th-x00/MD-9475_20151120171104_e7722094d1248da0.jpg)
 
 These headphones are a collaboration between [Fostex](https://www.fostex.com/) and [Massrop](https://massdrop.com/). They're also made of rich mahogany. 
