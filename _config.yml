@@ -12,7 +12,7 @@ tagline:             'A blog of questionable meaning...'
 description:         'Just some blog for Scott to keep his trials and tribulations on file in case they ever prove useful.'
 url:                 internaught.github.io
 baseurl:             /
-paginate:            5
+paginate:            10
 
 # About/contact
 author:

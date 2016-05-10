@@ -50,9 +50,9 @@ contact {
 }
 
 a#b {
-	-webkit-transition: color 0.3s ease-in-out;
-  -moz-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out 0s;
+-webkit-transition: color 0.3s ease-in-out;
+-moz-transition: color 0.3s ease-in-out;
+transition: color 0.3s ease-in-out 0s;
 color: #CED9E0;
 margin-right: 0.5%;
 float: right;
