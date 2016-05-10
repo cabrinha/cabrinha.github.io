@@ -153,6 +153,7 @@ a:active, a:focus {
     height: 3.5em;
     background-color: #22272A;
     box-shadow: 0px 0px 20px #000;
+    position: fixed;
 }
 .masthead-title {
   margin-top: 0;
