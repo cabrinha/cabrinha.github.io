@@ -1,6 +1,5 @@
 ---
 layout: post
-permalink: short-urls-jekyll
 title: Reality Bytes
 ---
 

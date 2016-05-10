@@ -1,6 +1,5 @@
 ---
 layout: post
-permalink: short-urls-jekyll
 title: Satoshi is as Satoshi Does
 ---
 
