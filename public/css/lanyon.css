@@ -519,7 +519,6 @@ a.pagination-item:hover {
 }
 
 .theme-base-08 .container h1.post-title a {
-    color: #E85151;
     transition: color 0.1s linear;
     text-decoration: none;
     border: none;
