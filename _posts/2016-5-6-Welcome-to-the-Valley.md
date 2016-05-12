@@ -41,7 +41,7 @@ online service, mobile app or popular website.
 
 I work the night shift at an [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_Things) 
 company. This means while everyone else is asleep, I'm online, hard at work monitoring 
-tens of thousands of Linux servers for anomolies, cruising through cyberspace, deploying 
+tens of thousands of Linux servers for anomalies, cruising through cyberspace, deploying 
 code and yes, even writing some small scripts myself. Never having worked a night shift 
 position before, it has been difficult to adjust my schedule. 
 
