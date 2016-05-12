@@ -88,10 +88,14 @@ Of course, with all that high-end headphone goodness, you need an AMP/DAC to pow
 Hi, ifi Micro iDSD:
 ![ifi](https://www.nativedsd.com/media/uploads/midsd03.png)
 
-This thing looks and [sounds gorgeous](http://www.head-fi.org/products/ifi-audio-micro-idsd), in my opinion.
+This thing looks and [sounds gorgeous](http://www.head-fi.org/products/ifi-audio-micro-idsd), in my opinion. 
+It has an internal battery so you can listen to it on-the-go hooked up to your phone, or if you want to just 
+reserve your laptop battery. The sound difference with and without this device is undeniable. The AMP/DAC combo 
+really squeezes every last drop out of your headphones and cleans up the signal coming from whatever source you 
+have. In my case, my Macbook Pro.
 
 Finally, we have another pair of closed-back Fostex cans, the Massdrop X Fostex TH-X00:
 ![TH-X00](https://massdrop-s3.imgix.net/product-images/fostex-x-massdrop-th-x00/MD-9475_20151120171104_e7722094d1248da0.jpg)
 
-These headphones are a collaboration between [Fostex](https://www.fostex.com/) and [Massrop](https://massdrop.com/). They're also made of rich mahogany. 
+These headphones are a collaboration between [Fostex](https://www.fostex.com/) and [Massdrop](https://massdrop.com/). They're also made of rich mahogany. 
 Overall, I've collected some good gear recently and can't see myself justifying any more purchases of this nature for quite some time.
