@@ -27,11 +27,12 @@ Everyone up here is an "Engineer". Software, Hardware, Infrastructure. There are
 women working as Software Developers up here than I thought there would be. Which is 
 refreshing.
 
-[Au Pairs](https://en.wikipedia.org/wiki/Au_pair) are quite common as well. 
-Stand around the keg at any backyard party in the Valley for more than ten minutes and 
-you're likely to hear some German being spoken. There are people from all over the world here 
-and it's enlightening to hear about the various backgrounds and origins that this melting pot 
-of technology has stirred together.
+Just stand around the keg at any backyard party in the Valley for more than ten minutes and 
+you're likely to hear some German being spoken. Other languages aren't uncommon either as 
+there are people from all over the world here and it's enlightening to hear about the various 
+backgrounds and origins that this melting pot of technology has stirred together. Dr. Michio Kaku 
+made an excellent point when he revealed America's [secret weapon](https://www.youtube.com/watch?v=NK0Y9j_CGgM), 
+offering an interesting take on why there are so many foreign faces peppering the high-tech landscape.
 
 ## Rising from the Grave
 
