@@ -4,6 +4,9 @@ title: Three States of Coffee
 ---
 
 Coffee has been a staple of my morning routine for quite some time, now. I tend to like strong flavors and smooth textures.
+
+<!--more-->
+
 I started drinking coffee around age 18 or 19. I just liked the way it tasted and how adding some cream could change the taste so much.
 Yes, I have to admit that at one point, Starbucks was my go-to when it came time for a sip. I got accustomed to the drink on a regular 
 basis by way of the Java Chip. I quickly graduated to Mochas once winter hit and I craved a warm drink with a little more kick than your
