@@ -60,9 +60,9 @@ Iced Latte from Dana Street Roasting Company in Mountain View. This place has pe
 for a latte and the inside seating area is pretty cool. Their coffee is miles ahead of Red Rock down the street and they're usually
 less busy too. I love coming to this place for a sip.
 
-![Dana](http://i.imgur.com/EP8wZea.jpg)
+![Dana](http://i.imgur.com/CaQRxON.jpg)
 ![Street](http://i.imgur.com/fj0ekb9.jpg)
-![Roasting](http://i.imgur.com/CaQRxON.jpg)
+![Roasting](http://i.imgur.com/EP8wZea.jpg)
 
 It's really difficult to decide on a "best" or award one place the winner over another. These places are the ones I frequent most often and
 ones I wouldn't ever mind ordering a drink from.
