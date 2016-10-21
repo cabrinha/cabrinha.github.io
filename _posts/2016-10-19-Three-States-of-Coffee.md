@@ -67,7 +67,7 @@ less busy too. I love coming to this place for a sip.
 It's really difficult to decide on a "best" or award one place the winner over another. These places are the ones I frequent most often and
 ones I wouldn't ever mind ordering a drink from.
 
-## San Antonio
+## Texas
 
 Not too long ago I was living in San Antonio, Texas. Here are some pictures of coffee I drank while I was there.
 
