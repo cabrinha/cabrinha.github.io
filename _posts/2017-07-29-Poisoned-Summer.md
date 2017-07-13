@@ -1,7 +1,12 @@
-# The Mechanical Keyboard Community
+---
+layout: post
+title: Poisoned Summer
+---
 
 Collecting artisan keycaps has become a bit of a hobby of mine recently. In this post, I aim to educate readers on some light history of this somewhat niche community before showcasing the most recent "Poisoned Summer" Nightcaps sales by Eat The Food.
 <!--more-->
+# The Mechanical Keyboard Community
+
 ![Poisoned Summer](http://i.imgur.com/pf5F64p.jpg)
 
 ## /r/MK
