@@ -1,10 +1,11 @@
 # Dependencies
 highlighter:         rouge
+plugins:             [jekyll-paginate]
 
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           :title/
+permalink:           blog/:title/
 
 # Setup
 title:               internaught.io
@@ -19,4 +20,4 @@ author:
   email:             scott@internaught.io
 
 # Custom vars
-version:             0.0.1
+version:             0.0.2
