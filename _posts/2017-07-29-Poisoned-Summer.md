@@ -40,7 +40,7 @@ Bro has sales where you can purchase the caps directly, every 4 months or so.
 ## Eat the Food
 My second favorite artisan cap would be the Fugu, made by ETF. The character of the cap is a blow fish or "puffer" fish and, just like the others, price varies by color and stem however these artisans are much easier to acquire because they are offered for sale more frequently and at a lower price, usually in the $40 to $60 range, although the aftermarket prices can usually climb much higher for the rarer fugus.
 
-![St. Patrick](https://steemitimages.com/DQmPm1YGkfAgsbDFjKe7hoMF5Kz96wnoWzVYDfnPoLQ4wok/fugu.jpg)
+![St. Patrick](https://i.imgur.com/ma2a4JB.jpg)
 
 ![fugus](http://i.imgur.com/MmqVRbD.jpg)
 
