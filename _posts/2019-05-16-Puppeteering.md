@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Destroy to Maintain
+title: Puppeteering
 ---
 
 Over the years I've grown very fond of the Puppet ecosystem. Puppet has been a pleasure to work with, wether creating internal roles and profiles or contributing to open source modules found on [the forge](https://forge.puppet.com/). Recently, I had the opportunity to design a brand new Puppet deployment from the ground up, running in AWS and using the latest version, Puppet 6. Here's how I did it and why I eventually decided to throw it all away...
@@ -29,7 +29,7 @@ In the case of Puppet CA, that group is meant to have only one active node at an
 
 ## Puppet CA
 
-The Puppet CA server holds all of the SSL certs. It recieves cert signing requests, handles the signing and revoking of certs and also stores the certs. It handles none of the catalog compilation and does none of the "work" you'd expect from a puppetserver. By handing off the certificate management responsibilities to a single node, we can free our other puppetservers from the pain of syncing certs back and forth or sharing a disk volume between all of them. Backups and general cert management becomes easier when you only have a single point of contact to operate from.
+The Puppet CA server holds all of the SSL certs. It receives cert signing requests, handles the signing and revoking of certs and also stores the certs. It handles none of the catalog compilation and does none of the "work" you'd expect from a puppetserver. By handing off the certificate management responsibilities to a single node, we can free our other puppetservers from the pain of syncing certs back and forth or sharing a disk volume between all of them. Backups and general cert management becomes easier when you only have a single point of contact to operate from.
 
 ### SSL Cert Challenges
 
@@ -39,9 +39,9 @@ The CA server has a root cert it generates the first time the `puppetserver` ser
 
 These certs are tied to the fully qualified domain name of the node. If you've got puppet up and running, spawn a new node, run puppet on it once, then do something like change the hostname of that node, the next puppet run will fail because the certs on the node were generated using the previous hostname of that node. This opens up an interesting challenge: Name collisions. If you have two nodes with the same exact hostname, which ever one registers to the CA server first will be the only one serviced because the second node will be presenting a certificate signing request thats already been signed and is in use by the other agent.
 
-Because the environment relied heavily on auto-scaling groups and all nodes should be treated as ephemeral, hostnames needed to be unique. So, a neat little trick was to insert the instance ID into the hostname during bootstrap. That way, no two nodes would ever have the same hostname. With that worked out, nodes could come and go without worry of one trying to assert another's hostname.
+Because the environment relied heavily on auto-scaling groups and all nodes should be treated as ephemeral, hostnames needed to be unique. So, a neat little trick was to insert the instance ID into the hostname during bootstrap. That way, no two nodes would ever have the same hostname. With that worked out, nodes could come and go without worry of one trying to assert another host's name.
 
-That solves the agent nodes but what about the CA server itself? We still needed a way to safeguard against that instance being blown away at any time without losing all those precious SSL certs. There are a few different options here with S3 and all, but I decided to just use an EFS volume, mounted at bootstrap time to keep all the certs safe and sound. Any time the CA server is terminated, the auto-scaling group spawns another and the EFS volume holding all the certs gets mounted to Puppet's SSL directory at `/etc/puppetlabs/puppet/ssl`. When the `puppetserver` service is started on the new CA node, it checks for the existance of the root cert in that directory, sees it there and skips generating a new one.
+That solves the agent nodes but what about the CA server itself? We still needed a way to safeguard against that instance being blown away at any time without losing all those precious SSL certs. There are a few different options here with S3 and all, but I decided to just use an EFS volume, mounted at bootstrap time to keep all the certs safe and sound. Any time the CA server is terminated, the auto-scaling group spawns another and the EFS volume holding all the certs gets mounted to Puppet's SSL directory at `/etc/puppetlabs/puppet/ssl`. When the `puppetserver` service is started on the new CA node, it checks for the existence of the root cert in that directory, sees it there and skips generating a new one.
 
 Now puppet agent nodes and the CA server instance itself can just come and go without the need for manual intervention.
 
@@ -107,7 +107,7 @@ Some easy choices were:
 
 Between the Terraform code and some simple bash scripts run at boot time via [user-data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html), this entire stack could be created and destroyed easily or stamped out in multiple AWS regions or accounts, using all the same code.
 
-I won't cover the actual Puppet code that I used to configure the Puppet 6 stack, but I will give a much appreciated shoutout to some of my most frequently used Puppet modules.
+I won't cover the actual Puppet code that I used to configure the Puppet 6 stack, but I will give a much appreciated shout out to some of my most frequently used Puppet modules.
 
 ## Puppet Modules
 
@@ -119,7 +119,7 @@ To configure Puppetserver, PuppetDB and Puppet agent across all my nodes, I used
 
 ### datadog-agent
 
-For monitoring, I love using [DataDog](https://www.datadoghq.com/). If you're not familiar with DataDog, it's an awesome monitoring and logging service. They do it all with style and class and all within a single pane of glass. Eventhough their module has it's quirks, I've found the documentation to be so helpful, it's a pleasure to work with compared to other modules found on the forge. All their classes can be configured using Hiera and they keep the documentation for their classes [right inside the source code](https://github.com/DataDog/puppet-datadog-agent/blob/master/manifests/init.pp#L3).
+For monitoring, I love using [DataDog](https://www.datadoghq.com/). If you're not familiar with DataDog, it's an awesome monitoring and logging service. They do it all with style and class and all within a single pane of glass. Even though their module has it's quirks, I've found the documentation to be so helpful, it's a pleasure to work with compared to other modules found on the forge. All their classes can be configured using Hiera and they keep the documentation for their classes [right inside the source code](https://github.com/DataDog/puppet-datadog-agent/blob/master/manifests/init.pp#L3).
 
 ### sudo
 
@@ -131,8 +131,12 @@ After all was said and done, the design had been implemented and tested, it scal
 
 ## Containers
 
-In a world of Docker and Kubernetes, configuration management has started to go the way of the dinosaur. Why manage a complicated concoction of configuration files, services and packages ontop of an operating system when all you really need these days is for your binary to be run in a container on some orchestrator?
+In a world of Docker and Kubernetes, configuration management has started to go the way of the dinosaur. Why manage a complicated concoction of configuration files, services and packages on top of an operating system when all you really need these days is for your binary to be run in a container on some orchestrator?
 
 With this question being asked openly and honestly, it made much more sense to just avoid the whole thing. Amazon already offers [ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html) and [EKS](https://docs.aws.amazon.com/eks/latest/userguide/eks-optimized-ami.html) optimized AMIs. If you really need to configure the OS running on an instance there are tools like HashiCorp's [packer](https://www.packer.io/), which requires none of this complicated infrastructure to run and any additional sprinkle of glue you need can be applied using Launch Configs or User Data.
 
 Of course, containers do have challenges of their own, but instead of managing two target environments in the OS layer and in containers, maybe we can settle on just managing one.
+
+# Thanks for all the fish
+
+A huge "Thank You" goes out to the entire puppet community at large, especially the very active [Puppet Slack](https://slack.puppet.com/), which is full of helpful individuals who always seem eager to listen to a wide range of end user issues both common and foreign. These individuals were always willing to lend a helping hand, walk through configurations and syntax errors, and overally just provide anyone who is curious a better understanding of Puppet.
