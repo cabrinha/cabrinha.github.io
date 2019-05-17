@@ -13,7 +13,7 @@ The entire stack needed to be highly available, fault tolerant, ephemeral and ea
 
 # Design
 
-![cloudcraft]()
+![cloudcraft](https://i.imgur.com/89pKjMn.png)
 
 In order to ensure the requirements above were met, I decided to break out each component of the stack into it's own auto-scaling group. This would help isolate the failure domains of each service and also give each component the ability to scale independently from the others. Puppetlabs provides some good documentation on designing a Puppet deployment with multiple compile masters, but it's only geared toward Puppet Enterprise. Even though I wasn't using Puppet Enterprise, I was still able to lean on [their design](https://puppet.com/docs/pe/2019.1/installing_compile_masters.html).
 
@@ -57,7 +57,7 @@ In order to keep the puppet control repo in sync with each active Puppetserver, 
 
 ```bash
 # Find the IPv4 address of all active Puppetservers
-aws ec2 describe-instances --filters 
+aws ec2 describe-instances --filters Name=tag:Name,Values=Puppetserver --query 'Reservations[].Instances[].PrivateIpAddress[*]'
 
 # Login and run r10k on each server simultaneously
 pssh -i some-ssh-key.pem -l ubuntu ${list_of_ips} -- r10k deploy environment ${GIT_BRANCH} -pv
