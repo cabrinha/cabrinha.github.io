@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Destroy to Maintain: Puppet
+title: Destroy to Maintain
 ---
 
 Over the years I've grown very fond of the Puppet ecosystem. Puppet has been a pleasure to work with, wether creating internal roles and profiles or contributing to open source modules found on [the forge](https://forge.puppet.com/). Recently, I had the opportunity to design a brand new Puppet deployment from the ground up, running in AWS and using the latest version, Puppet 6. Here's how I did it and why I eventually decided to throw it all away...
 <!--more-->
-
 # Requirements
 
 Firstly, let's define the target environment for this deployment. The entire stack would need to run in AWS. Although Puppet 6 introduced the ability to containerize every component of the stack and run it on Kubernetes, this approach seemed to be somewhat of a community driven pet project and it's still in a largely experimental phase. It's called [Pupperware](https://github.com/puppetlabs/pupperware) and I decided to avoid it entirely in favor of the more well known approach running the stack on EC2 instances, leveraging auto scaling groups.
