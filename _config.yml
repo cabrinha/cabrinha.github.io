@@ -15,9 +15,9 @@ paginate:            10
 
 # About/contact
 author:
-  name:              Internaught Scott
+  name:              Scott Cabrinha
   url:               https://twitter.com/ScottaBeTrue
   email:             scott@internaught.io
 
 # Custom vars
-version:             0.0.2
+version:             0.0.3
