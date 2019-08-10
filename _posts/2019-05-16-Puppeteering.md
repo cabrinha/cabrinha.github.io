@@ -3,55 +3,55 @@ layout: post
 title: Puppeteering
 ---
 
-Over the years I've grown very fond of the Puppet ecosystem. Puppet has been a pleasure to work with, wether creating internal roles and profiles or contributing to open source modules found on [the forge](https://forge.puppet.com/). Recently, I had the opportunity to design a brand new Puppet deployment from the ground up, running in AWS and using the latest version, Puppet 6. Here's how I did it and why I eventually decided to throw it all away...
+Over the years I've grown very fond of the Puppet ecosystem. Puppet has been a pleasure to work with, whether creating internal roles and profiles or contributing to open source modules found on [the forge](https://forge.puppet.com/). Recently, I had the opportunity to design a brand new Puppet deployment from the ground up, running in AWS and using the latest version, Puppet 6. Here's how I did it..
 <!--more-->
 # Requirements
 
-Firstly, let's define the target environment for this deployment. The entire stack would need to run in AWS. Although Puppet 6 introduced the ability to containerize every component of the stack and run it on Kubernetes, this approach seemed to be somewhat of a community driven pet project and it's still in a largely experimental phase. It's called [Pupperware](https://github.com/puppetlabs/pupperware) and I decided to avoid it entirely in favor of the more well known approach running the stack on EC2 instances, leveraging auto scaling groups.
+Firstly, let's define the target environment for this deployment: The entire stack would need to run in AWS. Although Puppet 6 introduced the ability to containerize every component of the stack and run it on Kubernetes, this approach seemed to be somewhat of a community driven pet project which is still in an experimental phase. It's called [Pupperware](https://github.com/puppetlabs/pupperware) and I decided to avoid it entirely in favor of the more well known approach of running the stack on EC2 instances in auto-scaling groups.
 
-The entire stack needed to be highly available, fault tolerant, ephemeral and easily scalable. Once the stack was up, it should require little to no manual intervention during scaling operations. Any instance should be able to fail or be destroyed at any time without affecting the overall service and the entire design needed to aim to be as low maintenance as possible.
+The entire stack needed to be highly available, fault tolerant, ephemeral and easily scalable. Once the stack was up, it should require little to no manual intervention during scaling operations. Any instance should be able to fail or be destroyed at any time without affecting the service as a whole and the entire design needed to aim to be as low maintenance as possible.
 
 # Design
 
 ![cloudcraft](https://i.imgur.com/89pKjMn.png)
 
-In order to ensure the requirements above were met, I decided to break out each component of the stack into it's own auto-scaling group. This would help isolate the failure domains of each service and also give each component the ability to scale independently from the others. Puppetlabs provides some good documentation on designing a Puppet deployment with multiple compile masters, but it's only geared toward Puppet Enterprise. Even though I wasn't using Puppet Enterprise, I was still able to lean on [their design](https://puppet.com/docs/pe/2019.1/installing_compile_masters.html).
+In order to ensure the requirements above were met, I decided to break out each component of the stack into it's own auto-scaling group. This would help isolate the failure domains of each service and also give each component the ability to scale independently of eachother. Puppetlabs provides some good documentation on designing a Puppet deployment with multiple compile masters, but even though it's geared toward Puppet Enterprise, I was still able to lean heavily on [their design](https://puppet.com/docs/pe/2019.1/installing_compile_masters.html).
 
 I broke out the main components into the three major services of Puppet:
 
 * Puppet CA
-* Puppetserver
 * PuppetDB
+* Puppetserver
 
-Each of these components essentially consists of an auto-scaling group behind a load balancer. 
+Each of these components essentially consists of an auto-scaling group behind a load balancer.
 
-In the case of Puppet CA, that group is meant to have only one active node at any time. Puppetserver and PuppetDB can be scaled out to any number of nodes required to meet the demand of puppet agent nodes.
+In the case of Puppet CA, that group is meant to contain only one instance at any time. Puppetserver and PuppetDB can be scaled out to any number of instances required to meet the demand of all other puppet agents.
 
 ## Puppet CA
 
-The Puppet CA server holds all of the SSL certs. It receives cert signing requests, handles the signing and revoking of certs and also stores the certs. It handles none of the catalog compilation and does none of the "work" you'd expect from a puppetserver. By handing off the certificate management responsibilities to a single node, we can free our other puppetservers from the pain of syncing certs back and forth or sharing a disk volume between all of them. Backups and general cert management becomes easier when you only have a single point of contact to operate from.
+The Puppet CA server holds all the SSL certs. It receives certificate signing requests, handles the signing, revoking and storage of certs. It handles none of the catalog compilation and does none of the "work" you'd expect from a Puppetserver. By handing off the certificate management responsibilities to a single node, we can free up our other Puppetservers from the duty of syncing certs back and forth or sharing a disk volume between all of them. Backups and general certificate management becomes a bit easier when you only have a single point of contact to operate from.
 
 ### SSL Cert Challenges
 
-These SSL certs are kind of a big deal. [Regenerating Certs](https://puppet.com/docs/puppet/6.3/ssl_regenerate_certificates.html#concept-4386) can be a nightmare in a large deployment. I'm no expert in every technicality of the SSL song and dance in Puppet but I'll do my best to explain what I understand. 
+These SSL certs are kind of a big deal. [Regenerating Certs](https://puppet.com/docs/puppet/6.3/ssl_regenerate_certificates.html#concept-4386) can be a nightmare in a large deployment. I'm no expert in every technicality of the SSL song and dance, but I'll do my best to explain what I understand. 
 
 The CA server has a root cert it generates the first time the `puppetserver` service is started on the node. It uses that root cert to generate, sign and validate all other certs going forward. If any of these certs get out of sync, or if the CA server or an agent loses track of either the public or private SSL cert, puppet runs will fail and you'll have to perform some manual steps to get that agent back on track with the CA server. On the agent, certs are generated at the time of the first puppet run. When the agent checks in with the CA server, a public and private cert is generated on the agent node, then a certificate request is made to the CA server and if granted, the CA server signs the cert and basically grants access to that agent so a Puppetserver can start serving it catalogs.
 
 These certs are tied to the fully qualified domain name of the node. If you've got puppet up and running, spawn a new node, run puppet on it once, then do something like change the hostname of that node, the next puppet run will fail because the certs on the node were generated using the previous hostname of that node. This opens up an interesting challenge: Name collisions. If you have two nodes with the same exact hostname, which ever one registers to the CA server first will be the only one serviced because the second node will be presenting a certificate signing request thats already been signed and is in use by the other agent.
 
-Because the environment relied heavily on auto-scaling groups and all nodes should be treated as ephemeral, hostnames needed to be unique. So, a neat little trick was to insert the instance ID into the hostname during bootstrap. That way, no two nodes would ever have the same hostname. With that worked out, nodes could come and go without worry of one trying to assert another host's name.
+Because the environment relied heavily on auto-scaling groups and since all nodes are treated as ephemeral, hostnames needed to be unique to avoid collisions. If two hosts ever had the same name, the CA Server would reject the signing request of the last node to submit one. So, a neat little trick was to insert the instance ID into the hostname during bootstrap. That way, no two nodes would ever have the same hostname. With that problem solved, nodes could come and go without worry of one node asserting another host's name.
 
-That solves the agent nodes but what about the CA server itself? We still needed a way to safeguard against that instance being blown away at any time without losing all those precious SSL certs. There are a few different options here with S3 and all, but I decided to just use an EFS volume, mounted at bootstrap time to keep all the certs safe and sound. Any time the CA server is terminated, the auto-scaling group spawns another and the EFS volume holding all the certs gets mounted to Puppet's SSL directory at `/etc/puppetlabs/puppet/ssl`. When the `puppetserver` service is started on the new CA node, it checks for the existence of the root cert in that directory, sees it there and skips generating a new one.
+That solves the agent nodes but what about the CA server itself? We still needed a way to safeguard against that instance being blown away at any time without losing all those precious SSL certs it was in charge of storing. There are a few different options here with S3 and all, but I decided to just use an EFS volume, mounted at bootstrap to keep all the certificates safe and sound. Any time the CA server is terminated, the auto-scaling group spawns another and the EFS volume holding all the certs would be mounted to Puppet's SSL directory at `/etc/puppetlabs/puppet/ssl` as part of the bootstrap process. When the `puppetserver` service is started on the new CA node, it checks for the existence of the root cert in that directory, sees it there and skips generating a new one. Of course, these Puppet CA servers would always need to have the same hostname to avoid the root CA certificate regenerating.
 
-Now puppet agent nodes and the CA server instance itself can just come and go without the need for manual intervention.
+With this system in place, agent nodes and the CA server itself can just come and go without the need for manual intervention.
 
 ## Puppetserver
 
-Puppetservers are the workhorses of the stack. They compile catalogs and serve them up, decrypt secrets and perform lookups from hiera, run r10k to download and install modules from the forge, sync the most recent code changes from the control repo and manage [dynamic environments](https://puppet.com/blog/git-workflow-and-puppet-environments) actively being developed to make them available to all agents.
+Puppetservers are the workhorses of the stack. They compile catalogs and serve them up, decrypt secrets and perform lookups from hiera, run r10k to download and install modules from the forge, sync the most recent code changes from the control repo and manage [dynamic environments](https://puppet.com/blog/git-workflow-and-puppet-environments) actively being developed to make code available to all agents.
 
 ### Code Sync Challenges
 
-The main issue with syncing the code base between every active Puppetserver is that these instances could be created and terminated at any time. The auto-scaling group would be scaling in and out based on factors of load so, the group size would never be a consistent or predictable number. The hostnames would be randomized using the instance ID and the private IP addresses would never be reused either.
+The main issue with syncing the code base between every active Puppetserver is that these instances could be created and terminated at any time. The auto-scaling group would be scaling in and out based on factors of load and the group size would never be a consistent or predictable number. The hostnames would be randomized using the instance ID and the private IP addresses would never be reused either.
 
 In order to keep the puppet control repo in sync with each active Puppetserver, a natural and well supported utility comes in the form of [r10k](https://github.com/puppetlabs/r10k). But, instead of blindly running r10k on a cron, which would pull down every branch known to the repo each run, I opted to use GitHub's webhooks to trigger a Jenkins job that would run r10k. Why Jenkins? Well, as much as we all love to hate it, we're kind of stuck with it for lack of a better solution. Once a feature branch is pushed remotely, the webhook would trigger Jenkins to perform the following commands:
 
@@ -63,7 +63,7 @@ aws ec2 describe-instances --filters Name=tag:Name,Values=Puppetserver --query '
 pssh -i some-ssh-key.pem -l ubuntu ${list_of_ips} -- r10k deploy environment ${GIT_BRANCH} -pv
 ```
 
-With this simple two-step job being run automatically on each push of a feature branch and each merge into the master branch, I was able to automate the deployment of the control repo to each active Puppetserver at the same pace of development. This way, when an operator is developing puppet code on their laptop, their changes are readily available to be tested in any deployment tier, against any puppet agent node using the typical `puppet agent` commands you'd expect.
+With this simple two-step job being run automatically on each push of a feature branch and each merge into the master branch, I was able to automate the deployment of the control repo to each active Puppetserver at the same pace of development. This way, when anyone is developing puppet code and pushes a commit, their changes are readily available to be tested in any deployment tier, against any puppet agent node using the typical `puppet agent -t --environmet $GIT_BRANCH` commands you'd expect.
 
 ### Dynamic Puppetservers
 
